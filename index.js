@@ -5,7 +5,7 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
   const target = document.getElementById('app').querySelector('#nested .target');
-  return target
+  return target;
 }
 
 function increaseRankBy() {
